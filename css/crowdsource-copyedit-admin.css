@@ -1,0 +1,28 @@
+#ucc_csce_metabox.postbox .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#ucc_csce_metabox.postbox .inside .column-author {
+	width: 25%;
+}
+
+#ucc_csce_metabox.postbox .inside h4 {
+	margin: 1.33em 0 0;
+}
+
+#ucc_csce_metabox.postbox .inside .original-text {
+	padding: 0 0.5em;
+	border: 1px solid #f00;
+	background: #fcc;
+}
+
+#ucc_csce_metabox.postbox .inside .edited-text {
+	padding: 0 0.5em;
+	border: 1px solid #0f0;
+	background: #cfc;
+}
+
+#ucc_csce_metabox .copyedits-box {
+	border: 0 none;
+}

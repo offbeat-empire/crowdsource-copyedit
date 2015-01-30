@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crowdsource Copyedit v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-02-03 19:07:46+0000\n"
+"Last-Translator: jennifermdodd <jmdodd@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: crowdsource-copyedit.php:0
+#@ crowdsource-copyedit
+msgid "Crowdsource Copyedit"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: crowdsource-copyedit.php:0
+#@ crowdsource-copyedit
+msgid "Allow site visitors to submit copyediting suggestions on posts and pages."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: crowdsource-copyedit.php:0
+#@ crowdsource-copyedit
+msgid "Jennifer M. Dodd"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: crowdsource-copyedit.php:0
+#@ crowdsource-copyedit
+msgid "http://uncommoncontent.com/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: crowdsource-copyedit.php:0
+#@ crowdsource-copyedit
+msgid "1.0"
+msgstr ""
+
+#: crowdsource-copyedit.php:184
+#@ crowdsource-copyedit
+msgid "Copyedits"
+msgstr ""
+
+#: crowdsource-copyedit.php:222
+#@ crowdsource-copyedit
+msgid "No copyedits found."
+msgstr ""
+
+#: crowdsource-copyedit.php:260
+#, php-format
+#@ crowdsource-copyedit
+msgid "Submitted on %s at %s"
+msgstr ""
+
+#: crowdsource-copyedit.php:265
+#: crowdsource-copyedit.php:469
+#@ crowdsource-copyedit
+#@ default
+msgid "Original text:"
+msgstr ""
+
+#: crowdsource-copyedit.php:273
+#: crowdsource-copyedit.php:470
+#@ crowdsource-copyedit
+#@ default
+msgid "Copyedit suggestion:"
+msgstr ""
+
+#: crowdsource-copyedit.php:281
+#: crowdsource-copyedit.php:471
+#@ crowdsource-copyedit
+#@ default
+msgid "Notes:"
+msgstr ""
+
+#: crowdsource-copyedit.php:336
+#@ crowdsource-copyedit
+msgid "Reporter name is required."
+msgstr ""
+
+#: crowdsource-copyedit.php:344
+#@ crowdsource-copyedit
+msgid "Reporter email is required."
+msgstr ""
+
+#: crowdsource-copyedit.php:351
+#@ crowdsource-copyedit
+msgid "You do not have permission to make a copyedit report."
+msgstr ""
+
+#: crowdsource-copyedit.php:361
+#, php-format
+#@ crowdsource-copyedit
+msgid "The original text entered must be less than %d characters."
+msgstr ""
+
+#: crowdsource-copyedit.php:367
+#@ crowdsource-copyedit
+msgid "You did not include the original text."
+msgstr ""
+
+#: crowdsource-copyedit.php:377
+#, php-format
+#@ crowdsource-copyedit
+msgid "The edited text entered must be less than %d characters."
+msgstr ""
+
+#: crowdsource-copyedit.php:382
+#@ crowdsource-copyedit
+msgid "You did not make any corrections."
+msgstr ""
+
+#: crowdsource-copyedit.php:386
+#@ crowdsource-copyedit
+msgid "You have not made a copyedit change."
+msgstr ""
+
+#: crowdsource-copyedit.php:395
+#, php-format
+#@ crowdsource-copyedit
+msgid "The notes entered must be less than %d characters."
+msgstr ""
+
+#: crowdsource-copyedit.php:406
+#@ crowdsource-copyedit
+msgid "No post ID specified."
+msgstr ""
+
+#: crowdsource-copyedit.php:454
+#@ crowdsource-copyedit
+msgid "Unable to add copyedit."
+msgstr ""
+
+#: crowdsource-copyedit.php:461
+#, php-format
+#@ crowdsource-copyedit
+msgid "[Crowdsource Copyedit]: New copyedit on '%s'"
+msgstr ""
+
+#: crowdsource-copyedit.php:462
+#, php-format
+#@ crowdsource-copyedit
+msgid "A new copyedit suggestion has been posted for <a href=\"%s\">%s</a>. <a href=\"%s\">Edit this post.</a>"
+msgstr ""
+
+#: crowdsource-copyedit.php:467
+#@ crowdsource-copyedit
+msgid "Reporter name: "
+msgstr ""
+
+#: crowdsource-copyedit.php:468
+#@ crowdsource-copyedit
+msgid "Reporter email: "
+msgstr ""
+
+#: crowdsource-copyedit.php:480
+#@ crowdsource-copyedit
+msgid "Thank you for your copyedit submission."
+msgstr ""
+
+#: crowdsource-copyedit.php:550
+#@ crowdsource-copyedit
+msgid "Suggest a Copyedit"
+msgstr ""
+
+#: crowdsource-copyedit.php:557
+#@ crowdsource-copyedit
+msgid "Reporter Name"
+msgstr ""
+
+#: crowdsource-copyedit.php:564
+#@ crowdsource-copyedit
+msgid "Reporter Email"
+msgstr ""
+
+#: crowdsource-copyedit.php:572
+#@ crowdsource-copyedit
+msgid "Original text"
+msgstr ""
+
+#: crowdsource-copyedit.php:573
+#@ crowdsource-copyedit
+msgid "Enter the original text here."
+msgstr ""
+
+#: crowdsource-copyedit.php:577
+#@ crowdsource-copyedit
+msgid "Edited text"
+msgstr ""
+
+#: crowdsource-copyedit.php:578
+#@ crowdsource-copyedit
+msgid "Enter your suggested copyedit here."
+msgstr ""
+
+#: crowdsource-copyedit.php:582
+#@ crowdsource-copyedit
+msgid "Notes"
+msgstr ""
+
+#: crowdsource-copyedit.php:583
+#@ crowdsource-copyedit
+msgid "You can add a note for the editor here."
+msgstr ""
+
+#: crowdsource-copyedit.php:589
+#@ crowdsource-copyedit
+msgid "Submit"
+msgstr ""
+
+#: crowdsource-copyedit.php:590
+#@ crowdsource-copyedit
+msgid "Cancel"
+msgstr ""
+
+#: crowdsource-copyedit.php:593
+#@ crowdsource-copyedit
+msgid "Required information."
+msgstr ""
+
+#: crowdsource-copyedit.php:598
+#@ crowdsource-copyedit
+msgid "Suggest a copyedit"
+msgstr "Fix Typo"
+

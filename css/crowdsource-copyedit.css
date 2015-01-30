@@ -1,0 +1,74 @@
+.ui-dialog {
+	padding: 0.2em;
+	border: 1px solid #777;
+	background: #fff;
+	color: #333;
+}
+
+.ui-dialog-titlebar {
+	font-weight: bold;
+	background: #04b598;
+	color: #fff;
+	padding: 0.5em;
+	margin: -0.5em;
+}
+
+.ui-icon {
+	float: right;
+	background-image: url('http://code.jquery.com/ui/1.11.2/themes/smoothness/images/ui-icons_888888_256x240.png');
+}
+
+.ui-dialog-buttonpane {
+	clear: both;
+	padding-top: 1.0em;
+}
+
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px;}
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+
+.ui-dialog .ui-dialog-titlebar { position: relative;  }
+
+.ui-icon-closethick { background-position: -97px -131px; height: 100%; width: 100%;}
+
+/*button text element */
+.ui-button .ui-button-text { display: block; line-height: 1.4;  }
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
+.ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
+.ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+/* no icon support for input elements, provide padding by default */
+.ui-button { margin-right: 5px; }
+
+.copyedit-modal {
+	padding: 0.5em;
+}
+
+#ucc-csce-copyedit-wrapper label {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 10px;
+	width: 120px;
+}
+
+#ucc-csce-copyedit-wrapper ul.errors {
+	color: #f00;
+}
+
+#ucc-csce-copyedit-wrapper p.success {
+	font-size: 1.0em;
+	text-align: center;
+	padding: 1.0em;
+}
+
+#ucc-csce-copyedit-wrapper span.help {
+	font-style: italic;
+}
+
+#ucc-csce-copyedit-messages {
+	padding: 0.5em;
+}
+
+#ucc-csce-copyedit-messages ul {
+	list-style: disc;
+	margin-left: 1.0em;
+}
