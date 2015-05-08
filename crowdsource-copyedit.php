@@ -33,14 +33,14 @@ if ( !defined( 'ABSPATH' ) ) exit;
 if ( !class_exists( 'UCC_Crowdsource_Copyedit' ) ) {
 class UCC_Crowdsource_Copyedit {
 	public static $instance;
-	public static $version;
-	public static $plugin_dir;
-	public static $plugin_url;
-	public static $comment_type;
-	public static $comment_approved;
-	public static $comment_spam;
-	public static $options;
-	public static $actions;
+	public $version;
+	public $plugin_dir;
+	public $plugin_url;
+	public $comment_type;
+	public $comment_approved;
+	public $comment_spam;
+	public $options;
+	public $actions;
 
 	public function __construct() {
 		self::$instance = $this;
@@ -74,7 +74,7 @@ class UCC_Crowdsource_Copyedit {
 				'max_characters'     => 200,
 				'no-js_compat'       => false,
 				'email_notification' => true,
-				'email_to'           => 'copyeditor@offbeatempire.com'
+				'email_to'           => 'ariel@offbeatempire.com'
 			);
 			/* @todo
 			update_option( '_ucc_csce_options', $options );
