@@ -74,7 +74,7 @@ class UCC_Crowdsource_Copyedit {
 				'max_characters'     => 200,
 				'no-js_compat'       => false,
 				'email_notification' => true,
-				'email_to'           => 'ariel@offbeatempire.com'
+				'email_to'           => 'wolfgang@offbeatempire.com'
 			);
 			/* @todo
 			update_option( '_ucc_csce_options', $options );
@@ -464,11 +464,12 @@ class UCC_Crowdsource_Copyedit {
 
 			if ( empty( $errors ) && $this->options['email_notification'] && !empty( $this->options['email_to'] ) ) {
 				$to      = $this->options['email_to'];
-				$subject = sprintf( __( "[Crowdsource Copyedit]: New copyedit on '%s'", 'crowdsource-copyedit' ), get_the_title( $comment_post_ID ) );
+				$subject = sprintf( __( "[FIXTYPO]: New copyedit on '%s'", 'crowdsource-copyedit' ), get_the_title( $comment_post_ID ) );
+				$headers = "From: $comment_author <$comment_author_email> \r\n";
 				$message = sprintf( __( "A new copyedit suggestion has been posted for <a href=\"%s\">%s</a>. <a href=\"%s\">Edit this post.</a>", 'crowdsource-copyedit' ),
 					get_permalink(      $comment_post_ID ),
 					get_the_title(      $comment_post_ID ),
-					get_edit_post_link( $comment_post_ID, '' )
+					admin_url(	"post.php?post=$comment_post_ID&action=edit"	)
 				);
 				$message .= '<p>' . esc_html__( "Reporter name: ", 'crowdsource-copyedit' ) . $comment_author . '<br />';
 				$message .= esc_html__( "Reporter email: ", 'crowdsource-copyedit' ) . $comment_author_email . '</p>';
@@ -477,7 +478,7 @@ class UCC_Crowdsource_Copyedit {
 				$message .= '<p><strong>' . esc_html__( "Notes:" ) . '</strong><br />' . esc_html( $notes ) . '</p>';
 
 				add_filter( 'wp_mail_content_type', array( $this, 'wp_mail_content_type' ) );
-				wp_mail( $to, $subject, $message );
+				wp_mail( $to, $subject, $message, $headers );
 				remove_filter( 'wp_mail_content_type', array( $this, 'wp_mail_content_type' ) );
 			}
 
