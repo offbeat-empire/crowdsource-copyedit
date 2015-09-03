@@ -74,7 +74,7 @@ class UCC_Crowdsource_Copyedit {
 				'max_characters'     => 200,
 				'no-js_compat'       => false,
 				'email_notification' => true,
-				'email_to'           => 'wolfgang@offbeatempire.com'
+				'email_to'           => 'v4d6y8n9r7n5d5h8@offbeatempire.slack.com'
 			);
 			/* @todo
 			update_option( '_ucc_csce_options', $options );
